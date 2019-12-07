@@ -1,7 +1,7 @@
 # Anime-Cards
 This is the ultimate Dueling Nexus anime card style pack and it's too large to add to userstyles so it will have to be downloaded from here.
 
-Instructions:
+Instructions
 
 Step 1: Go here https://raw.githubusercontent.com/yasuotornado/Anime-Cards/master/Ultimate%20Anime%20Card%20Pack.txt
 Step 2: Copy everything inside of there.
