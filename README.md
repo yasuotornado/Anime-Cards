@@ -2,7 +2,7 @@
 This is the ultimate Dueling Nexus anime card style pack and it's too large to add to userstyles so it will have to be downloaded from here.
 
 Instructions
-
+--
 Step 1: Go here https://raw.githubusercontent.com/yasuotornado/Anime-Cards/master/Ultimate%20Anime%20Card%20Pack.txt
 Step 2: Copy everything inside of there.
 Step 3: Click your userstyles icon to bring up the menu then click the tripple dot option in the top right corner and select "Create New Style"
