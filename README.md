@@ -5,6 +5,7 @@ Please use STYLUS for this project instead of STYLIISH
 Stylus seems to work better for some reason and I'll try to find out why at a later time.
 
 Stylus for Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
+
 Stylus for FireFox: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
 Instructions
 --
@@ -13,8 +14,11 @@ Step 1: Go here https://raw.githubusercontent.com/yasuotornado/Anime-Cards/maste
 Step 2: Copy everything inside of there if you're having issues copying the text right click the link and download the text file and do it that way.
 
 Step 3: Click your Stylus icon and bring up the menu then press "Manage" and once inside there press "Write new style"
+
 https://i.imgur.com/s9XSUzo.jpg
+
 https://i.imgur.com/UzQndsc.jpg
+
 Step 4: Paste everything you copied in the link before inside of "Code 1"
 
 Optional
