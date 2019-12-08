@@ -25,5 +25,8 @@ Step 4: Paste everything you copied in the link before inside of "Code 1"
 Optional
 Step 5: If you're on Chrome you can goto "applies to" and press "Specify" change URL to URL starting with and put https://duelingnexus.com/
 
-Step 6: Give it a name "Ultimate Anime Card Pack" and press save. Reopen Dueling Nexus and you should see changes to cards.
+https://i.imgur.com/naodjST.jpg
+
+Step 6: Give it a name "Ultimate Anime Card Pack" and press save and make sure ENABLED is checked under the name you gave it. Reopen Dueling Nexus and you should see changes to cards.
+
 That's it, enjoy!
