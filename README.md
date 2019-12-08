@@ -5,8 +5,9 @@ Please use STYLUS for this project instead of STYLIISH
 Stylus seems to work better for some reason and I'll try to find out why at a later time.
 
 Stylus for Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
-
+--
 Stylus for FireFox: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+--
 Instructions
 --
 Step 1: Go here https://raw.githubusercontent.com/yasuotornado/Anime-Cards/master/Ultimate%20Anime%20Card%20Pack.txt
