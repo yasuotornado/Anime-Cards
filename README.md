@@ -1,12 +1,15 @@
 # Anime-Cards
 This is the ultimate Dueling Nexus anime card style pack and it's too large to add to userstyles so it will have to be downloaded from here.
 
-Please use STYLUS for this project instead of STYLISH
+**Please use STYLUS for this project instead of STYLISH**
+
 Stylus seems to work better for some reason and I'll try to find out why at a later time.
 
 Stylus for Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
 --
 Stylus for FireFox: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+--
+Stylus for Opera: https://addons.opera.com/en/extensions/details/stylus/
 --
 Instructions
 --
