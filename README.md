@@ -11,11 +11,22 @@ Click the Stylus extension icon on the top right of the screen and open up the m
 
 When the menu is open click "Manage"
 
-Download the file below(right click and save as! should save as .json) and under the "Backup" section click the import dropbox and click "import styles"
+SS: https://i.imgur.com/Y6KBVcm.jpg
+
+Download the file below(right click and save as! should save as .json)
 
 https://github.com/yasuotornado/Anime-Cards/blob/master/Ultimate%20Anime%20Card%20Pack.json
 
-Choose the file you just downloaded and that should be it, make sure it's enabled ^_^ have fun happy testing!
+Click import style under the backup section.
+
+SS: https://i.imgur.com/Hj5Qi2D.jpg
+
+
+Choose the file you just downloaded.
+
+SS: https://i.imgur.com/G90z7j6.jpg
+
+Refresh your dueling nexus page and make sure that the extension is enabled. Have fun and happy testing!
 
 --
 
