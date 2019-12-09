@@ -3,11 +3,9 @@ This is the ultimate Dueling Nexus anime card style pack and it's too large to a
 
 **Please use STYLUS for this project instead of STYLISH**
 
-Stylus seems to work better for some reason and I'll try to find out why at a later time.
+Stylus works way better when you're using this script so please use it ^_^
 
 Stylus for Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
---
-Stylus for FireFox: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
 --
 Stylus for Opera: https://addons.opera.com/en/extensions/details/stylus/
 --
