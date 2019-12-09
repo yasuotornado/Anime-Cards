@@ -15,7 +15,7 @@ SS: https://i.imgur.com/Y6KBVcm.jpg
 
 Download the file below(right click and save as! should save as .json)
 
-https://github.com/yasuotornado/Anime-Cards/blob/master/Ultimate%20Anime%20Card%20Pack.json
+https://github.com/yasuotornado/Anime-Cards/blob/master/stylus-2019-12-09.json
 
 Click import style under the backup section.
 
