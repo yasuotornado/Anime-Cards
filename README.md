@@ -7,6 +7,7 @@ Stylus for Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpee
 Stylus for Opera: https://addons.opera.com/en/extensions/details/stylus/
 --
 Instructions
+
 Click the Stylus extension icon on the top right of the screen and open up the menu.
 
 When the menu is open click "Manage"
