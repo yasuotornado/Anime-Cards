@@ -1,28 +1,59 @@
 // ==UserScript==
-// @name         Dueling Nexus Anime Cards
-// @include      https://duelingnexus.com/*
-// @namespace    https://duelingnexus.com/
-// @version      0.2
-// @description  Anime Cards for DuelingNexus
-// @resource      CARDS1 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%201
-// @resource      CARDS2 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%202
-// @resource      CARDS3 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%203
-// @resource      CARDS4 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%204
-// @resource      CARDS5 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%205
-// @resource      CARDS6 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%206
-// @resource      CARDS7 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%207
-// @resource      CARDS8 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%208
-// @resource      CARDS9 https://github.com/yasuotornado/Anime-Cards/raw/master/scripts/Ultimate%20Anime%20Card%20Pack%209
-// @grant         GM_addStyle
-// @grant         GM_getResourceText
-//
+// @name         Anime Card Script
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @match        https://duelingnexus.com/game/*
+// @match        https://duelingnexus.com/editor/*
+// @grant        none
 // ==/UserScript==
-GM_addStyle(GM_getResourceText('CARDS1'));
-GM_addStyle(GM_getResourceText('CARDS2'));
-GM_addStyle(GM_getResourceText('CARDS3'));
-GM_addStyle(GM_getResourceText('CARDS4'));
-GM_addStyle(GM_getResourceText('CARDS5'));
-GM_addStyle(GM_getResourceText('CARDS6'));
-GM_addStyle(GM_getResourceText('CARDS7'));
-GM_addStyle(GM_getResourceText('CARDS8'));
-GM_addStyle(GM_getResourceText('CARDS9'));
+
+(function() {
+window.usingAnimeCards = true;
+
+const getAsset = (a) => "assets/" + a;
+const imageVersion = "1937fe2";
+const IMAGE_SOURCES = {
+    anime: "https://raw.githubusercontent.com/yasuotornado/Anime-Cards/master/images/",
+    github: "https://raw.githubusercontent.com/DuelingNexus/images/" + imageVersion + "/",
+    cdn: "https://cdn.jsdelivr.net/gh/DuelingNexus/images@" + imageVersion + "/"
+}
+const loadCardImage = function (id, useAnime) {
+    if(id === 0) {
+        return getAsset("images/cover.png");
+    }
+    else if(id === -1) {
+        return getAsset("images/unknown.png");
+    }
+    else {
+        let image = id + ".jpg";
+        let source;
+        if(useAnime) {
+            source = IMAGE_SOURCES.anime;
+        }
+        else if(da) {
+            source = IMAGE_SOURCES.github;
+        }
+        else {
+            source = IMAGE_SOURCES.cdn;
+        }
+        return source + image;
+    }
+}
+
+// update
+window.ra = loadCardImage;
+
+window.l = function l(img, id, useAnime = usingAnimeCards) {
+    img.off("error");
+    img.attr("src", ra(id, useAnime));
+    if (0 < id) img.one("error", function() {
+        if(useAnime) {
+            // try without
+            l(img, id, false);
+        }
+        else {
+            $(this).attr("src", ra(-1));
+        }
+    })
+}
+})();
