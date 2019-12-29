@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         Anime Card Script
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @name         Dueling Nexus Anime Cards
+// @namespace    https://duelingnexus.com/
+// @description  Anime Cards
+// @version      0.3
 // @match        https://duelingnexus.com/game/*
 // @match        https://duelingnexus.com/editor/*
 // @grant        none
 // ==/UserScript==
-
 (function() {
 window.usingAnimeCards = true;
 
