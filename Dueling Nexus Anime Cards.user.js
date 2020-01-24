@@ -2,7 +2,7 @@
 // @name         Dueling Nexus Anime Cards
 // @namespace    https://duelingnexus.com/
 // @description  Anime Cards
-// @version      0.3
+// @version      0.4
 // @match        https://duelingnexus.com/game/*
 // @match        https://duelingnexus.com/editor/*
 // @grant        none
@@ -11,7 +11,7 @@
 window.usingAnimeCards = true;
 
 const getAsset = (a) => "assets/" + a;
-const imageVersion = "1937fe2";
+const imageVersion = "f30ec49";
 const IMAGE_SOURCES = {
     anime: "https://raw.githubusercontent.com/yasuotornado/Anime-Cards/master/images/",
     github: "https://raw.githubusercontent.com/DuelingNexus/images/" + imageVersion + "/",
