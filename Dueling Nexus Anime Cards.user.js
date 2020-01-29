@@ -2,7 +2,7 @@
 // @name         Dueling Nexus Anime Cards
 // @namespace    https://duelingnexus.com/
 // @description  Anime Cards
-// @version      0.4
+// @version      0.5
 // @match        https://duelingnexus.com/game/*
 // @match        https://duelingnexus.com/editor/*
 // @grant        none
