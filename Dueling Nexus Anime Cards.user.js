@@ -11,7 +11,7 @@
 window.usingAnimeCards = true;
 
 const getAsset = (a) => "assets/" + a;
-const imageVersion = "a8da92c";
+const imageVersion = "3318f79";
 const IMAGE_SOURCES = {
     anime: "https://raw.githubusercontent.com/yasuotornado/Anime-Cards/master/images/",
     github: "https://raw.githubusercontent.com/DuelingNexus/images/" + imageVersion + "/",
